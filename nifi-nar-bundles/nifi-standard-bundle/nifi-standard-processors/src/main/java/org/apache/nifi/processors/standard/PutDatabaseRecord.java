@@ -640,7 +640,6 @@ public class PutDatabaseRecord extends AbstractSessionFactoryProcessor {
         }
 
         // build the fully qualified table name
-
         final String fqTableName =  generateTableName(settings, catalog, schemaName, tableName, tableSchema);
 
         if (recordSchema == null) {
