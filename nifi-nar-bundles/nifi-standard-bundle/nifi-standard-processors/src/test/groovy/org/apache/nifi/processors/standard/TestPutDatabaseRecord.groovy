@@ -940,7 +940,11 @@ class TestPutDatabaseRecord {
                 ],
                 false,
                 ['id'] as Set<String>,
+<<<<<<< HEAD
                 '"'
+=======
+                ''
+>>>>>>> NIFI-7313:add test by wanghongqi
 
         ] as PutDatabaseRecord.TableSchema
 
